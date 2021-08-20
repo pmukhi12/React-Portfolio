@@ -8,9 +8,8 @@ const Projects = () => {
             {projects.map(project => {
                 return (
                     <Card>
-                        <Card.Header as="h5">Featured</Card.Header>
+                        <Card.Header as="h5">{project.title}</Card.Header>
                         <Card.Body>
-                            <Card.Title>{project.title}</Card.Title>
                             <Card.Text>
                                 {project.description}
                             </Card.Text>
