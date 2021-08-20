@@ -12,10 +12,10 @@ const Nav = () => {
                             <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/praveshmukhi/">Linkedin</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">GitHub</a>
+                            <a class="nav-link" href="https://github.com/pmukhi12">GitHub</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#beforeProjects">Projects</a>
                         </li>
                     </ul>
                 </div>

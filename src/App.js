@@ -1,5 +1,4 @@
 import Nav from './components/Nav';
-import Header from './components/Header';
 import Image from './components/Image';
 import Projects from './components/Projects';
 import './index.css'
@@ -14,7 +13,7 @@ function App() {
                 <Image class="profile-pic"/>
                     <div class="col-8"style={{paddingTop:'5%'}}>
                         <h1 class="display-4">Prav Mukhi</h1>
-                        <p style={{marginBottom: ''}} class="lead">Prav is a Full Stack Software Developer with a history of process automation and data analysis.</p>
+                        <p id="beforeProjects"style={{marginBottom: ''}} class="lead">Prav is a Full Stack Software Developer with a history of process automation and data analysis. Please refer to his projects below:</p>
                       <Projects/>
                     </div>
                 </div>
